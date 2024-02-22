@@ -31,34 +31,3 @@ const App = () => {
 
 export default App;
 
-// import React from 'react';
-// import { BrowserRouter as Router, Route, Switch, BrowserRouter, Routes } from 'react-router-dom';
-// import Navbar from './component/Navbar'
-// import Dashboard from './component/Dashborad'
-// import Inventory from './component/Inventory';
-// import Todos from './component/Todos'
-// import Shipping from './component/Shipping'
-// import Channel from './component/Channel'
-
-// const App = () => {
-//   return (
-//     <BrowserRouter>
-    
-//       <div className="container">
-//         <Navbar /> {/* Render the Navbar component */}
-//         <Routes>
-        
-//           <Route exact path="/" component={Dashboard} />
-//           <Route path="/inventory" component={Inventory} />
-//           <Route path="/todo" component={<Todos/>} />
-//           <Route path="/shipping" component={Shipping} />
-//           <Route path="/channel" component={Channel} />
-          
-//           </Routes>
-//       </div>
-//       </BrowserRouter>
-  
-//   );
-// }
-
-// export default App;
